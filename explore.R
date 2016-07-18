@@ -133,7 +133,8 @@ png(filename = "april_uber_weekend_hourly_usage.png")
 plot(g)
 dev.off()
 
-
+write.csv(df_all2,file="apr_weekday.csv")
+write.csv(df_all3,file="apr_weekend.csv")
 
 
 
